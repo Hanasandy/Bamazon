@@ -142,7 +142,7 @@ function lowInventory(){
 
 
 
-// Add to Inventory ==> STILL DOES NOT UPDATE QUANTITY
+// Add to Inventory
 function addInventory() {
    var newQuantity;
    var addId;
