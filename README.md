@@ -1,7 +1,7 @@
 # Bamazon
 
 #Screenshot of bamazonCustomer.js
-![Screenshot for bamazonCustomer.js](https://github.com/Hanasandy/Bamazon/blob/master/Screenshot_bamazonCustomer.png)
+![Screenshot for bamazonCustomer.js](https://github.com/Hanasandy/Bamazon/blob/master/Screeenshot_bamazonCustomer.png)
 
 
 #Screenshot of bamazonManager.js
