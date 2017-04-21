@@ -37,6 +37,6 @@ CREATE TABLE departments(
  ("AERIN Dinnerware Collection", "Dinnerware", 59.95, 8000),
  ("Breville Oracle Espresso Maker", "Kitchen Appliances", 1999.95, 4);
  
- USE bamazon_DB;
+USE bamazon_DB;
  
  

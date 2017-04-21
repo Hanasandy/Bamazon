@@ -101,7 +101,7 @@ var orderQuestion = function () {
 			for (var i = 0; i < res.length; i++) {
 
 				if (userPurchase.inputQuantity > res[i].stockQuantity) {
-					console.log("Insufficient quantity!");
+					console.log("Insufficient quantity! Please try again.");
 				    welcom();
 				} else {
 					console.log("We have product ready!");
