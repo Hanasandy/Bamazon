@@ -1,4 +1,4 @@
--- CREATE DATABASE bamazon_DB;
+CREATE DATABASE bamazon_DB;
 
 CREATE TABLE products (
  
@@ -8,7 +8,19 @@ CREATE TABLE products (
 	price DECIMAL(10,2) NOT NULL,
 	stockQuantity INTEGER UNSIGNED NOT NULL,
 	PRIMARY KEY(itemID)  
+    
 );
+
+CREATE TABLE departments(
+
+	departmentId INTEGER(11) AUTO_INCREMENT NOT NULL,
+	departmentName VARCHAR(100) NOT NULL,
+	overHeadCost DECIMAL(10,2) NOT NULL,
+	totalSales DECIMAL(10,2) NOT NULL,
+	PRIMARY KEY(itemID)
+
+);
+
 
  INSERT INTO products (productname, departmentName, price, stockQuantity)
  
@@ -22,9 +34,9 @@ CREATE TABLE products (
  ("Batter Ladles Set of 2", "Cooks' Tools", 24.95, 170000),
  ("Riedel Pinot Noir Wine Tumbler, Set of 2", "Glassware & Bar", 15.95, 7000),
  ("American Regional BBQ Sauce, Texas Style", "Food", 3.50, 200000),
- ("AERIN Dinnerware Collection", "Dinnerware", 59.95, 8000);
+ ("AERIN Dinnerware Collection", "Dinnerware", 59.95, 8000),
+ ("Breville Oracle Espresso Maker", "Kitchen Appliances", 1999.95, 4);
  
- 
- -- USE bamazon_DB;
+ USE bamazon_DB;
  
  

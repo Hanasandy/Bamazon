@@ -1,4 +1,4 @@
-// variables
+// dependencies
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 var Table = require("cli-table");
@@ -143,10 +143,12 @@ function proceedCheckout(productID, newStock) {
 	            }], function(err, res) {});
 
          console.log("Thank you for shopping at HEIDI SONOMA!");
+         console.log("----------------------------------------------------------");
          welcom();
 
       } else{
          console.log("Thank you for visitng. Looking forward to see you next time.");
+         console.log("----------------------------------------------------------");
          welcom();        
       }
   }); //end of userOrder
